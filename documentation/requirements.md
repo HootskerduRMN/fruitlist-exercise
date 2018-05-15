@@ -16,8 +16,6 @@ The goal of this exercise is to create a publicly accessible REST API that allow
 
     d) Returning list of fruits as JSON e.g. `{"Top Fruits": [{"#1": "Banana"}, ...]}`
 
-7) If this project were to be released to production, what are some follow up items that should be addressed?
-
 ====
 
 Requirements not yet accomplished by JH 20180514 due to time constraints:
@@ -25,6 +23,8 @@ Requirements not yet accomplished by JH 20180514 due to time constraints:
 4)b) Ordering fruits (e.g. move a fruit down or up in ranking)
 
 5) API should use basic authentication
+
+7) If this project were to be released to production, what are some follow up items that should be addressed?
 
 ===
 
