@@ -8,7 +8,6 @@ from bottle import route, run
 import csv
 from io import StringIO
 import json
-import re
 
 # TODO: Make script a class with separate main() and test() fns and exec as instance
 # TODO: refactor to remove coupling by adding fruitlist as parameter passed in and reset; yes, I agree, this current global use of fruitlist is very suboptimal
@@ -40,7 +39,7 @@ def delete_fruit( p_input ):
     _fruitlist = fruitlist
 
     # is the parameter a number?
-    if re.match('[0-9]+', p_input) is not None:  # contains digits only
+    try:
         p_input_int = int(p_input)
         # handle index is out-of-bounds case
         if p_input_int < 1 or p_input_int > len(_fruitlist):
@@ -57,7 +56,8 @@ def delete_fruit( p_input ):
                             {str(counter_number): v})
                         counter_number += 1
         _fruitlist = _scrubbed_fruitlist_by_number
-    else:  # not deleting by index, but by string of fruitname
+    except (ValueError, TypeError):  # not deleting by index,
+        # but by string of fruitname
         # generate list of fruit names
         _fruitnames = []
         for item in _fruitlist:
