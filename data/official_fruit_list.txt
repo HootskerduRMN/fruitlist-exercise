@@ -1,126 +1,126 @@
-Apple
-Apricot
-Avocado
-Banana
-Bilberry
-Blackberry
-Blackcurrant
-Blueberry
-Boysenberry
-Buddha's hand
-Buddhas hand
-Buddhashand
-Fingered citron
-Fingeredcitron
-Citron
-Canteloupe
-Crab apples
-Currant
-Cherry
-Cherimoya
-Chico fruit
-Chicofruit
-Cloudberry
-Coconut
-Cranberry
-Cucumber
-Custard apple
-Custardapple
-Damson
-Date
-Dragonfruit
-Durian
-Elderberry
-Feijoa
-Fig
-Goji berry
-Gojiberry
-Gooseberry
+apple
+apricot
+avocado
+banana
+bilberry
+blackberry
+blackcurrant
+blueberry
+boysenberry
+buddha's hand
+buddhas hand
+buddhashand
+fingered citron
+fingeredcitron
+citron
+canteloupe
+crab apples
+currant
+cherry
+cherimoya
+chico fruit
+chicofruit
+cloudberry
+coconut
+cranberry
+cucumber
+custard apple
+custardapple
+damson
+date
+dragonfruit
+durian
+elderberry
+feijoa
+fig
+goji berry
+gojiberry
+gooseberry
 gonzoberry
-Grape
-Raisin
-Grapefruit
-Guava
-Honeyberry
+grape
+raisin
+grapefruit
+guava
+honeyberry
 honeydew
-Huckleberry
-Jabuticaba
-Jackfruit
-Jack fruit
-Jambul
-Jujube
-Juniper berry
-Juniperberry
-Kiwano
+huckleberry
+jabuticaba
+jackfruit
+jack fruit
+jambul
+jujube
+juniper berry
+juniperberry
+kiwano
 horned melon
 hornedmelon
-Kiwifruit
-Kumquat
-Lemon
-Lime
-Loquat
-Longan
-Lychee
-Mango
-Mangosteen
-Marionberry
-Melon
-Miracle fruit
-Miraclefruit
-Mulberry
-Nectarine
-Nance
-Olive
-Orange
-Blood orange
-Bloodorange
-Clementine
-Mandarine
-Tangerine
-Papaya
-Passionfruit
-Peach
-Pear
-Persimmon
-Plantain
-Plum
-Prune
-Pineapple
-Plumcot
-Pluot
-Pomegranate
-Pomelo
-Purple mangosteen
-Purplemangosteen
+kiwifruit
+kumquat
+lemon
+lime
+loquat
+longan
+lychee
+mango
 mangosteen
-Quince
-Raspberry
-Salmonberry
-Rambutan
-Redcurrant
-Salal berry
-Salalberry
-Salak
-Satsuma
-Soursop
-Star fruit
-Starfruit
-Strawberry
-Tamarillo
-Tamarind
-Ugli fruit
-Uglifruit
-Watermelon
-Yuzu
-Avocado
-Chili pepper
-Chilipepper
-Corn kernel
-Cornkernel
-Cucumber
-Eggplant
-Olive
-Pea
-Pumpkin
-Squash
-Tomato
+marionberry
+melon
+miracle fruit
+miraclefruit
+mulberry
+nectarine
+nance
+olive
+orange
+blood orange
+bloodorange
+clementine
+mandarine
+tangerine
+papaya
+passionfruit
+peach
+pear
+persimmon
+plantain
+plum
+prune
+pineapple
+plumcot
+pluot
+pomegranate
+pomelo
+purple mangosteen
+purplemangosteen
+mangosteen
+quince
+raspberry
+salmonberry
+rambutan
+redcurrant
+salal berry
+salalberry
+salak
+satsuma
+soursop
+star fruit
+starfruit
+strawberry
+tamarillo
+tamarind
+ugli fruit
+uglifruit
+watermelon
+yuzu
+avocado
+chili pepper
+chilipepper
+corn kernel
+cornkernel
+cucumber
+eggplant
+olive
+pea
+pumpkin
+squash
+tomato
