@@ -13,6 +13,8 @@ pip flask-httpauth
 have to SET FLASK_APP=main.py
 or SET on unix export FLASK_APP=main.py
 
+then set FLASK_ENV = development
+
 then to execute:
 Windows (in project dir): python -m flask run
 UNIX: flask run

@@ -20,7 +20,7 @@ The goal of this exercise is to create a publicly accessible REST API that allow
 
 Requirements not yet accomplished by JH 20180514 due to time constraints:
 
-4)b) Ordering fruits (e.g. move a fruit down or up in ranking)
+4) Ordering fruits (e.g. move a fruit down or up in ranking)
 
 5) API should use basic authentication
 
