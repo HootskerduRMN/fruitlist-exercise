@@ -5,7 +5,7 @@ Deploy the project to a directory on a computer with a Python 3 interpreter inst
 1. From a terminal run `pip install bottle` and then `pip install bottle-cork`.
 2. Run `python main.py`.
 
-You then should be able to open a web browser and navigate to `http://127.0.0.1/showlist`
+You then should be able to open a web browser and navigate to `http://127.0.0.1:5000/showlist`
 
 pip flask
 pip flask-httpauth
