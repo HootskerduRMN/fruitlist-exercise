@@ -1,21 +1,17 @@
 ## Deploying Fruitlist API ##
 
-Deploy the project to a directory on a computer with a Python 3 interpreter installed (and the `python.exe` and `pip` commands in `PATH`):
+The `fruitlist.Dockerfile` contains a template to create an image for the project.
 
-1. From a terminal run `pip install bottle` and then `pip install bottle-cork`.
-2. Run `python main.py`.
+When it is run, one should be able to enter `curl http://127.0.0.1:5000/showlist` and receive back a list of fruits.
 
-You then should be able to open a web browser and navigate to `http://127.0.0.1:5000/showlist`
+To execute the project more manually on Windows with Python3 installed, one would need to:
 
-pip flask
-pip flask-httpauth
+> pip flask
 
-have to SET FLASK_APP=main.py
-or SET on unix export FLASK_APP=main.py
+> pip flask-httpauth
 
-then set FLASK_ENV = development
+> SET FLASK_APP=app.py
 
-then to execute:
-Windows (in project dir): python -m flask run
-UNIX: flask run
+> SET FLASK_ENV=production
 
+> python -m flask run
