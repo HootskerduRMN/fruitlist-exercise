@@ -23,7 +23,7 @@ The goal of this exercise is to create a publicly accessible REST API that allow
 Requirements in process by JH as of 20180521:
 
 3) REST API should be hosted in docker container
-> near-complete: needs validation
+> near-complete: requesting validation
 
 7) If this project were to be released to production, what are some follow up items that should be addressed?
 
@@ -34,3 +34,5 @@ Requirements removed from original by JH with approval by JO 20180511
 2) Data should be stored in an RDS instance
 >
 6) Deployment of the API should be automated
+
+> Does the dockerfile accomplish this or is there further automation beyond docker which could be pursued?

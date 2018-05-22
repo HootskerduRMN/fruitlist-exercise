@@ -1,6 +1,6 @@
 ## Deploying Fruitlist API ##
 
-The `fruitlist.Dockerfile` contains a template to create an image for the project.
+The file at `/documentation/fruitlist.Dockerfile` contains a template to create an image for the project.
 
 When it is run, one should be able to enter `curl http://127.0.0.1:5000/showlist` and receive back a list of fruits.
 
