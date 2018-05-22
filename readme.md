@@ -21,6 +21,12 @@ There are five calls you can make by suffixing the root:
 or
 > `curl http://127.0.0.1:5000/delete/2`
 
+4. **up** will move a current fruit on the list one position closer to the beginning of the list, either by index number of name. Thus for a three-item fruitlist of `['apple','banana', 'cantelope']`, one could reorder the list to `['banana', 'apple', 'cantelope']` by running
+> `curl http://127.0.0.1:5000/up/banana` or `curl http://127.0.0.1:5000/up/2`
+
+5. **down** will move a current fruit on the list one position closer to the end of the list, either by index number of name. hus for a three-item fruitlist of `['apple','banana', 'cantelope']`, one could reorder the list to `['apple', 'cantelope', 'banana']` by running
+> `curl http://127.0.0.1:5000/down/banana` or `curl http://127.0.0.1:5000/down/2`
+
 The `/documentation` directory contains formal requirements and deployment instructions.
 
 For demonstration purposes only, the initial list is seeded with five fruits.
