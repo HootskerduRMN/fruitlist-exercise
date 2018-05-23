@@ -66,23 +66,15 @@ def delete_fruit( p_input ):
     """ delete fruit item from list by name or index number """
 
     try:
-        p_input_int = int(p_input)
-        # handle users' likely conception of input as ordinal, not 0-based
-        p_input_int = p_input_int - 1
-        # handle index is out-of-bounds case
-        if p_input_int < 1 or p_input_int > len(fruitlist):
-            return 'Please enter a list number between 1 and ' + \
-                   str(len(fruitlist)) + '.'
-        else:  # valid index
-            print('p_input_int', p_input_int)
-            print('fruitlist[p_input_int - 1', fruitlist[p_input_int - 1])
-            del fruitlist[p_input_int - 1]
-    except (ValueError, TypeError):  # input not int, but string value
+        del fruitlist[int(p_input) - 1]
+    except IndexError:
+        return 'Index must be between 1 and %s.' % len(fruitlist)
+    except ValueError:
         try:
             fruitlist.remove(p_input)
-        except(ValueError, TypeError):
-            # entered fruitname not in list
-            return 'Please enter the name of a fruit on  the list.'
+        except ValueError:
+            return 'Unable to delete fruit. Expected fruits are: %s' % ', '.join(
+                fruitlist)
 
     return jsonify(fruitlist)
 
